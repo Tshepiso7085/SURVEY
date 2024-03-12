@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link href="../survey/CSS/styles.css" rel="stylesheet" type="text/css">
+        <title>SURVEYED</title>
+
+    </head>
+    <body>
+        <main>
+         <section id="header">
+          <h1 id="title">Car's</h1>
+          <p id="description"> Survey to help find the best car for you</p>
+        </section>
+        <section>
+            <form id="survey-form" > 
+                <label id="name-label">Name: <input placeholder="Your Name" id="name" type="text" required></label>
+                <br><label id="email-label">Email: <input placeholder="Email" id="email" type="email" required></label>                
+                <br><label id="number-label">Number: <input placeholder="Number" id="number" type="number" min="0" max="50" required></label>
+                <br>
+                <label for="color">Favorite color:     
+                <select id="dropdown" >
+                    <option id="dropdown1" >Your Choice</option>
+                    <option id="dropdown2" >Black</option>
+                    <option id="dropdown3" >White</option>
+                    <option id="dropdown4" >Silver</option>
+                    <option id="dropdown5" >Red</option>
+                    <option id="dropdown6" >Green</option>
+                    <option id="dropdown7" >Blue</option>
+                </select>
+                </label>
+                <label class="container">Cars Most people rate as the best<br>
+                    <input id="golf-one" name="car" type="radio"> Golf One<br>  
+                    <input id="golf-5" name="car" type="radio"> Golf 5<br>
+                    <input id="golf-6" name="car" type="radio"> Golf 6<br>
+                    <input id="golf-7" name="car" type="radio"> Golf 7<br>
+                    <input id="golf-7" name="car" type="radio"> Golf 8<br>
+                </label> 
+                
+                <br>
+                <label for="types of rims" id="RIMS"> RIMS: <br>
+                    <input id="steel" value="STEEL" type="checkbox"> STEEL <br>  
+                    <input id="alloy" value="ALLOY" type="checkbox"> ALLOY <br>
+                    <input id="forged" value="FORGED" type="checkbox"> FORGED <br>
+                </label> <br>
+                <label for="comments" id="COMMENTS"> COMMENTS:<br> 
+                    <textarea rows="15" cols="30" maxlength="150"></textarea>
+                </label> <br>
+                <input type="submit" value="submit" id="submit">
+            </form>
+        </section>
+        </main>
+    </body>
+</html>
